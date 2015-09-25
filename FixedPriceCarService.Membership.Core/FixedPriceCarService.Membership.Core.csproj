@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainServices\IMemberContainer.cs" />
     <Compile Include="DomainServices\IRepository.cs" />
     <Compile Include="Entities\Member.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

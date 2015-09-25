@@ -57,7 +57,7 @@ namespace FixedPriceCarService.Membership.Web.Controllers
             if (ModelState.IsValid)
             {
                 var member = new Member { 
-                    Id = 1,
+                    Id = MemberContainer.GenerateMemberId(),
                     CreatedDate = DateTime.Now,
                     Email = memberVm.Email,
                     FirstName = memberVm.FirstName,
